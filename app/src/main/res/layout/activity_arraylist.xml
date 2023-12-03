@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/backpage"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+
+    <TextView
+            android:id="@+id/textViewName"
+            android:layout_below="@id/textViewName"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Name: "
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/textViewEmail"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Email: "
+            android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="password: "
+        android:layout_marginTop="80dp"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+
+    <TextView
+            android:id="@+id/textViewPhoneNumber"
+            android:layout_below="@id/textViewEmail"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_width="wrap_content"
+            android:text="Phone Number: "
+            android:textSize="18sp" />
+    <TextView
+        android:id="@+id/textViewAddress"
+        android:layout_below="@id/textViewEmail"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:text="Address: "
+        android:textSize="18sp" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/But_ok"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="ok"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</RelativeLayout>

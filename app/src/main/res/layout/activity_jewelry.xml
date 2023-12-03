@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backpage"
+    tools:context=".jewelry">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="city > gift > jewelry" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="chose jewelry you like?" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/app_name">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/Img_neck1"
+                    android:layout_width="197dp"
+                    android:layout_height="218dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/jewelry" />
+
+                <ImageView
+                    android:id="@+id/Img_neck2"
+                    android:layout_width="190dp"
+                    android:layout_height="218dp"
+                    android:layout_marginRight="200dp"
+                    android:src="@drawable/jewelry1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/But_neck1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:text="S-Necklace: 300SR" />
+
+                <Button
+                    android:id="@+id/But_neck2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="200dp"
+                    android:paddingRight="10dp"
+                    android:text=" F-Necklace: 800SR" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/Img_crs"
+                    android:layout_width="175dp"
+                    android:layout_height="218dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/accessior"
+                     />
+
+                <ImageView
+                    android:id="@+id/Img_gold"
+                    android:layout_width="190dp"
+                    android:layout_height="218dp"
+                    android:layout_marginRight="200dp"
+                    android:src="@drawable/accessoir1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/But_crs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:text="crystal bracelet: 230 SR" />
+
+                <Button
+                    android:id="@+id/But_gold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="200dp"
+                    android:paddingRight="50dp"
+                    android:text="glod bracelet: 190 SR" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/Img_cha"
+                    android:layout_width="152dp"
+                    android:layout_height="218dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/jewelry5"
+                     />
+
+                <ImageView
+                    android:id="@+id/Img_star"
+                    android:layout_width="108dp"
+                    android:layout_height="218dp"
+                    android:layout_marginRight="200dp"
+                    android:src="@drawable/jewery4"
+                     />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/But_cha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:text="chanel earrings: 900 SR" />
+
+                <Button
+                    android:id="@+id/But_star"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="200dp"
+                    android:paddingRight="50dp"
+                    android:text="star erraings: 840 SR" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/Img_ring"
+                    android:layout_width="190dp"
+                    android:layout_height="218dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/accees1"
+                     />
+
+                <ImageView
+                    android:id="@+id/Img_rings"
+                    android:layout_width="220dp"
+                    android:layout_height="218dp"
+                    android:layout_marginRight="200dp"
+                    android:src="@drawable/access2"
+                     />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/But_ring"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:text="rings: 291SR " />
+
+                <Button
+                    android:id="@+id/But_rings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="200dp"
+                    android:paddingRight="50dp"
+                    android:text="rings: 287 SR" />
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

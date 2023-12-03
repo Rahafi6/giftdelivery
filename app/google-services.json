@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "424231185893",
+    "project_id": "giftdeliveryapp-8f1c5",
+    "storage_bucket": "giftdeliveryapp-8f1c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424231185893:android:2223076b03a895c0e6930c",
+        "android_client_info": {
+          "package_name": "com.example.giftdelivery"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIG1GlEeDainwIg6GUVmC6FuiVZkzAdJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

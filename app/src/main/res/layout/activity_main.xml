@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8595656"
+    android:backgroundTint="#E1FFFFFF"
+    android:scrollbarSize="15dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backpage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="city"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.026"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/But_send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send gift to? "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.048">
+
+        </Button>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/Img_ryadh"
+            android:layout_width="110dp"
+            android:layout_height="140dp"
+            android:layout_marginEnd="15dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/riyadh"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.052"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.222">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <TextView
+            android:id="@+id/button4"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="#F3F8F2F4"
+            android:paddingLeft="40dp"
+            android:text="RIYADH"
+            android:textColor="#070707"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.45" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/Img_khobar"
+            android:layout_width="110dp"
+            android:layout_height="140dp"
+            android:src="@drawable/dammam"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.222">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <TextView
+            android:id="@+id/button5"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="#F8F2F4"
+            android:paddingLeft="40dp"
+            android:text="KHOBAR"
+            android:textColor="#090909"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.487"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.448">
+
+        </TextView>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/Img_jeddah"
+            android:layout_width="110dp"
+            android:layout_height="140dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/jeddah"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.019"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.747">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <TextView
+            android:id="@+id/button8"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="#F8F2F4"
+            android:paddingLeft="40dp"
+            android:text="JEDDAH"
+            android:textColor="#100F0F"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.034"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.864">
+
+        </TextView>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/Img_buridah"
+            android:layout_width="110dp"
+            android:layout_height="140dp"
+            android:src="@drawable/buridah"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.734">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <TextView
+            android:id="@+id/button9"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="#F8F2F4"
+            android:paddingLeft="40dp"
+            android:text="BURIDAH"
+            android:textColor="#0B0A0A"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.487"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.866">
+
+        </TextView>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/Img_makkah"
+            android:layout_width="110dp"
+            android:layout_height="140dp"
+            android:src="@drawable/makkah"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.946"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.222">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <TextView
+            android:id="@+id/button7"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="#F8F2F4"
+            android:paddingLeft="40dp"
+            android:text="MAKKAH"
+            android:textColor="#0B0A0A"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.979"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.448">
+
+        </TextView>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/Img_abha"
+            android:layout_width="110dp"
+            android:layout_height="140dp"
+            android:src="@drawable/abha"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.946"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.732">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <TextView
+            android:id="@+id/button10"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="#F8F2F4"
+            android:paddingLeft="40dp"
+            android:text="ABHA"
+            android:textColor="#0C0C0C"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.945"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.864">
+
+        </TextView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

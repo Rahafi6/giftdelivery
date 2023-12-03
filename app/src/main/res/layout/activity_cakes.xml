@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backpage"
+    tools:context=".cakes">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="city > gift > cakes" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="chose cakes you favorit?" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/app_name">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/Img_choco"
+                    android:layout_width="195dp"
+                    android:layout_height="175dp"
+                    android:padding="10dp"
+                    android:src="@drawable/cake2" />
+
+                <ImageView
+                    android:id="@+id/Img_van"
+                    android:layout_width="217dp"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:src="@drawable/cake1" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/But_choco"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="chocolate: 180 SR" />
+
+                <Button
+                    android:id="@+id/But_van"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="vanilla: 186 SR" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/Img_mil"
+                    android:layout_width="215dp"
+                    android:layout_height="219dp"
+                    android:padding="10dp"
+                    android:src="@drawable/cake6" />
+
+                <ImageView
+                    android:id="@+id/Img_lem"
+                    android:layout_width="191dp"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:src="@drawable/cakelimon" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/But_mil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="milk: 135 SR" />
+
+                <Button
+                    android:id="@+id/But_lem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="lemon: 147 SR" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/Img_crml"
+                    android:layout_width="205dp"
+                    android:layout_height="177dp"
+                    android:padding="10dp"
+                    android:src="@drawable/cakecaramel" />
+
+                <ImageView
+                    android:id="@+id/Img_stu"
+                    android:layout_width="194dp"
+                    android:layout_height="188dp"
+                    android:padding="10dp"
+                    android:src="@drawable/cakestu" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/But_crml"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="caramel: 192 SR" />
+
+                <Button
+                    android:id="@+id/But_stru"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="strawberry: 188 SR" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/Img_rasp"
+                    android:layout_width="186dp"
+                    android:layout_height="181dp"
+                    android:padding="10dp"
+                    android:src="@drawable/cake4" />
+
+                <ImageView
+                    android:id="@+id/Img_cherry"
+                    android:layout_width="115dp"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:src="@drawable/cake3" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/But_rasp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="raspberry: 120" />
+
+                <Button
+                    android:id="@+id/But_cherry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="cherry: 170 SR" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

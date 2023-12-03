@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backpage"
+    tools:context=".chosecard">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cards" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/app_name" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:id="@+id/Img_Birth"
+                    android:src="@drawable/cardbirth"/>
+
+                <Button
+                    android:id="@+id/Tex_card1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="100dp"
+                    android:text="BirthDay Card"/>
+
+
+                </TableRow>
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginTop="40dp"
+                    android:hint="Enter your message:"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/Img_card2"
+                    android:layout_width="130dp"
+                    android:layout_height="200dp"
+                    android:padding="10dp"
+                    android:src="@drawable/cardbirthday" />
+
+                <Button
+                    android:id="@+id/Tex_card2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="100dp"
+                    android:text="BirthDay card" />
+
+
+            </TableRow>
+
+            <TableRow>
+                <EditText
+                    android:id="@+id/message2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:hint="Enter your message:"
+                    >
+                </EditText>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/Img_card3"
+                    android:layout_width="230dp"
+                    android:layout_height="200dp"
+                    android:padding="10dp"
+                    android:src="@drawable/cardcon" />
+
+                <Button
+                    android:id="@+id/Tex_card3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="90dp"
+                    android:text="graduation card" />
+            </TableRow>
+
+            <TableRow>
+                <EditText
+                    android:id="@+id/message3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:hint="Enter your message:"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/Img_card4"
+                    android:layout_width="230dp"
+                    android:layout_height="200dp"
+                    android:padding="10dp"
+                    android:src="@drawable/cardcong" />
+
+                <Button
+                    android:id="@+id/Tex_card4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="90dp"
+                    android:text="graduation card" />
+            </TableRow>
+
+            <TableRow>
+                <EditText
+                    android:id="@+id/message4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:hint="Enter your message:"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/Img_card5"
+                    android:layout_width="230dp"
+                    android:layout_height="200dp"
+                    android:padding="10dp"
+                    android:src="@drawable/cardbebyy" />
+
+                <Button
+                    android:id="@+id/Tex_card5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="90dp"
+                    android:text="baby card" />
+            </TableRow>
+            <TableRow>
+                <EditText
+                    android:id="@+id/message5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:hint="Enter your message:"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/Img_card6"
+                    android:layout_width="230dp"
+                    android:layout_height="200dp"
+                    android:padding="10dp"
+                    android:src="@drawable/cardweedd" />
+
+                <Button
+                    android:id="@+id/Tex_card6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="90dp"
+                    android:text="wedding card" />
+            </TableRow>
+            <TableRow>
+                <EditText
+                    android:id="@+id/message6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:hint="Enter your message:"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/Img_card8"
+                    android:layout_width="230dp"
+                    android:layout_height="200dp"
+                    android:padding="10dp"
+                    android:src="@drawable/cardwedd" />
+
+                <Button
+                    android:id="@+id/Tex_card8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="90dp"
+                    android:text="wedding carf" />
+            </TableRow>
+            <TableRow>
+                <EditText
+                    android:id="@+id/message8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:hint="Enter your message:"/>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>
